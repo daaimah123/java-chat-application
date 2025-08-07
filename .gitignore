@@ -1,0 +1,31 @@
+# Java compiled output
+*.class
+
+# Package-specific compiled files (if not using a dedicated build folder)
+# This covers .class files generated directly in the source tree by `javac -d .`
+# For example: com/ecommerce/Product.class, com/ecommerce/orders/Order.class
+
+# IDE-specific files
+.idea/             # IntelliJ IDEA project files
+*.iml              # IntelliJ IDEA module files
+.project           # Eclipse project file
+.classpath         # Eclipse classpath file
+.settings/         # Eclipse settings directory
+.vscode/           # VS Code settings (if not shared)
+*.swp              # Vim swap files
+
+# Build artifacts
+*.jar              # Compiled JAR files
+*.war              # Compiled WAR files (for web apps)
+*.ear              # Compiled EAR files
+target/            # Maven build directory
+build/             # Gradle build directory (or other build tools)
+bin/               # Common output directory for compiled classes
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+.DS_Store          # macOS folder metadata
+Thumbs.db          # Windows thumbnail cache
