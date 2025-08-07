@@ -2,6 +2,8 @@
 
 A simple multi-user chat application built with Java socket programming that allows multiple clients to connect to a central server and exchange messages in real-time.
 
+![java chat app](https://github.com/user-attachments/assets/a3294f08-b19e-488d-8583-fbc34e7579f8)
+
 ## Project Overview
 
 This project implements a client-server chat application with the following components:
